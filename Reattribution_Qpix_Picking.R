@@ -31,10 +31,10 @@ if (!require("stringr")){
 #########################################################
 
 
-setwd("C:/Users/mdinclaux/Documents/Script/TWB_Processing")
+setwd("C:/Users/mdinclaux/Documents/Script/TWB/Reattribution_Qpix_Picking/")
 
 
-data <- read.csv("2022_07_22 picking plaque 2.csv", header = TRUE, sep = ",",
+data <- read.csv("Exemple_reattribution.csv", header = TRUE, sep = ",",
                  dec = ".", stringsAsFactors = FALSE, skip = 9)
 
 rearrangement = TRUE #rearrangement for cherry picking (1 plate / 1 replica)
